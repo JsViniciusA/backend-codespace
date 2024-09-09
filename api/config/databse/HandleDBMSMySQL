@@ -1,0 +1,15 @@
+class HandleDBMSMySQL{
+    constructor(parametro){
+        console.log(parametro)
+    }
+}
+var instacia = new HandleDBMSMySQL(123);
+var mysql = require("mysql")
+
+sqlQuery(){
+    //this.createConnection().query("select current-date()");
+    return new Promise((reject, resolve) => {
+        this.connection.query(sql,args,(err, results, fields);
+        )
+    });
+}
